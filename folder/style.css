@@ -1,0 +1,43 @@
+body
+{
+    background-color: bisque;
+}
+
+pre
+{
+    white-space: pre-wrap; 
+}
+
+hr
+{
+    border: 3px dashed rgba(255, 145, 0, 0.578);
+    width: 60%;
+}
+
+.pdf
+{
+    line-height: 1.5;
+    background-color: antiquewhite;
+    width: 60%;
+    margin: 40px auto;
+    padding: 0;
+    font-weight: bold;
+    font-size: 15px;
+    border: 3px solid rgb(255, 145, 0);
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(255, 145, 0);
+}
+
+.read:hover
+{
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 1.8;
+    box-shadow: 3px 3px 5px ;
+    background-color: rgb(249, 191, 115);
+    border: 2px solid rgb(185, 105, 0);
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 10px;
+    transition: .3s;
+}
